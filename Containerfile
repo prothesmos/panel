@@ -38,7 +38,7 @@ CMD ["npx", "playwright", "test"]
 # ---------------------------------------------------------------------------
 # Stage: serve — Python cors-proxy (serves static files + API proxy)
 # ---------------------------------------------------------------------------
-FROM python:3.13-alpine AS serve
+FROM python:3.15-alpine AS serve
 
 # hadolint ignore=DL3018
 RUN apk upgrade --no-cache && adduser -D -s /bin/sh appuser
