@@ -9,7 +9,7 @@
 # ---------------------------------------------------------------------------
 # Stage: build — assemble the single-file dist/index.html
 # ---------------------------------------------------------------------------
-FROM alpine:3.23 AS build
+FROM alpine:3.24 AS build
 
 # hadolint ignore=DL3018
 RUN apk add --no-cache bash make gawk
