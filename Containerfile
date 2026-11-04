@@ -24,7 +24,7 @@ RUN bash build.sh
 # ---------------------------------------------------------------------------
 # Stage: e2e — Playwright end-to-end tests
 # ---------------------------------------------------------------------------
-FROM mcr.microsoft.com/playwright:v1.58.2-noble AS e2e
+FROM mcr.microsoft.com/playwright:v1.64.1-noble AS e2e
 
 WORKDIR /app/e2e
 
